@@ -11,12 +11,13 @@ function Navbar() {
 
     return (
         <header>
-            <h3>LOGO</h3>
+            <h3>TIENDA DE PADEL</h3>
             <nav ref={navRef}>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
+                <a href="">INICIO</a>
+                <a href="">PALETAS</a>
+                <a href="">ACCESORIOS</a>
+                <a href="">BOLSOS</a>
+                <a href="">CONTACTO</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes></FaTimes>
                 </button>
@@ -27,9 +28,6 @@ function Navbar() {
         </header>
     );
 }
-
-
-
 
 
 export default Navbar;
